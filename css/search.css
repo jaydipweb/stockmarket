@@ -1,0 +1,88 @@
+label{
+    color:ivory;
+    font-size:20px;
+}
+
+h2{
+    color:oldlace;
+    text-align:center;
+}
+
+.form-control{
+     height: 40px;
+     font-size: 20px;
+     color: chartreuse;
+     background-color: black;
+     border-radius:50px;
+}
+
+hr{
+    border: 6px solid darkgrey;
+}
+
+.search_btn{
+    border-radius: 50px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+    background: linear-gradient(#073,#0fa);
+    color:black;
+    height: 37px; 
+    margin-top:51px; 
+    width: 30%;
+}
+
+.form-control[readonly] {
+    background-color: black;
+}
+
+.card-body{
+    margin-top:15%;
+}
+
+.btn-default {
+    height: 40px;
+    font-size: 20px;
+    color: chartreuse;
+    background-color: black;
+    border-radius:50px;
+}
+
+.btn-default:active, .btn-default:focus, .btn-default:hover{
+    color: chartreuse;
+    background-color: black;
+}
+
+.open{
+    width:inherit;
+}
+
+@media only screen and (max-width: 600px) {
+    .search_btn {
+        margin-top:60px; 
+        width: 92%;
+    }
+
+    .col-md-4{
+        margin-top: 7%;
+    }
+    
+    .card-body{
+        margin-top:13%;
+   }
+   
+   .btn-default {
+    height: 40px;
+    font-size: 20px;
+    color: chartreuse;
+    background-color: black;
+    border-radius:50px;
+    }
+    
+    .btn-default:active, .btn-default:focus, .btn-default:hover{
+        color: chartreuse;
+        background-color: black;
+    }
+
+}
+
+

@@ -1,0 +1,32 @@
+body {
+    color: white;
+}
+
+tr td {
+    background-color: black;
+}
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate .paginate_button{
+    color: chartreuse !important;
+}
+
+.dataTables_length label select{
+    background-color: black !important;
+}
+
+.xcel_download{
+    border-radius: 50px;
+    box-shadow: 0px 1px 4px -2px #333;
+    text-shadow: 0px -1px #333;
+    background: linear-gradient(#073,#0fa);
+    color:black;
+    height: 37px; 
+    width: 15%;
+    margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+    .xcel_download {
+        height: 37px; 
+        width: 75%;
+    }
+}
